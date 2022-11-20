@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+
+.website{
+    background-color: #2c2f33;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav{
+    background-color:#23272a;
+    display: flex;
+    justify-content: center;
+}
+
+nav .navdetails{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+nav .navdetails a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.2s;
+    color: white;
+}
+
+nav .navdetails a:hover{
+    color: #1d6575;;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    font-size: 120px;
+    color: #268da5;;
+}
+
